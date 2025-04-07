@@ -54,6 +54,9 @@ export class CardPrograms {
     @Column()
     currency_code: string
 
+    @Column({ nullable: true })
+    country: string
+
     @Column()
     expiry_months: Number
 

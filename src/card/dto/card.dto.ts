@@ -12,15 +12,15 @@ import { Type } from 'class-transformer';
 class CardProfileDto {
     @IsOptional()
     @IsString()
-    firstName?: string;
+    first_name?: string;
 
     @IsOptional()
     @IsString()
-    middleName?: string;
+    middle_name?: string;
 
     @IsOptional()
     @IsString()
-    lastName?: string;
+    last_name?: string;
 
     @IsOptional()
     @IsString()
@@ -44,7 +44,7 @@ class CardProfileDto {
 
     @IsOptional()
     @IsString()
-    dateOfBirth?: string;
+    date_of_birth?: string;
 
     @IsOptional()
     @IsString()
@@ -72,7 +72,7 @@ class CardProfileDto {
 
     @IsOptional()
     @IsString()
-    motherMaidnName?: string;
+    mother_maidn_name?: string;
 }
 
 export class CardDto {

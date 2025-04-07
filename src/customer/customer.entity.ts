@@ -7,13 +7,13 @@ export class Customers {
     id: Number
 
     @Column({ nullable: true })
-    firstName: string
+    first_name: string
 
     @Column({ nullable: true })
-    middleName: string
+    middle_name: string
 
     @Column({ nullable: true })
-    lastName: string
+    last_name: string
 
     @Column({ nullable: true })
     address1: string
@@ -31,7 +31,7 @@ export class Customers {
     country: string
 
     @Column({ nullable: true })
-    dateOfBirth: string
+    date_of_birth: string
 
     @Column({ nullable: true })
     gender: string
@@ -52,7 +52,7 @@ export class Customers {
     email: string
 
     @Column({ nullable: true })
-    motherMaidnName: string
+    mother_maidn_name: string
 
     @OneToMany(() => Cards, (card) => card.customer)
     cards: Cards[];
