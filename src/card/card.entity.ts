@@ -15,6 +15,7 @@ export enum CardStatus {
     REISSUED = 'R'
 }
 
+
 @Entity()
 export class Cards {
     @PrimaryGeneratedColumn('increment')
